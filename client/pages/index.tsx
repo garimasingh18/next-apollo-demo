@@ -12,7 +12,7 @@ export default function Home({ name }: { name: string }) {
       <Head><title>Home</title></Head>
       <Nav></Nav>
       <main>
-        <h1 className="mb-3">
+        <h1 role="Head" className="mb-3">
           Welcome, <Name name={name} />
         </h1>
       </main>
